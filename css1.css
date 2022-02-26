@@ -42,9 +42,12 @@
       .judul.sticky h2{
         color: black;
       }
+      .judul img{
+        width: 100px;
+      }
       /* /Navbar */
 
-      /* Rresponsive */
+      /* Rresponsive  tablet*/
       @media screen and (max-width: 991px){
         html,body{
           width: 100%;
@@ -71,8 +74,37 @@
         .konten-1{
           padding-top: 8em;
         }
+        .konten-1-grid{
+          display: grid;
+          justify-content: stretch;
+     
+        }
+        .konten-1-top{
+          grid-row: 1;
+          align-items: center;
+        }
+        .konten-1-buttom{
+          grid-row: 2;
+        }
+        .konten-2-buttom{
+          grid-row: 2;
+          margin-top: 1rem;
+        }
+        .konten-2-top{
+          grid-row: 1;
+        }
+        .konten-2-grid{
+          display: grid;
+        }
+        .card-1{
+          padding: 3rem;
+        }
       }
+      
       /* /Responsive */
+
+      /* Responsive Hp */
+      /* /Responsive Hp */
 
       /* Konten 1 */
       .Wonderful{
@@ -128,11 +160,6 @@
       margin-top:3em;
 
       }
-      
-      .card-height-1{
-        margin: 0 ;
-      }
-
       .card-1 .card{
         border-radius: 20px; 
         transition: 1s;
