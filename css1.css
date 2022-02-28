@@ -1,9 +1,12 @@
     body{
       min-height: 10000px;
     }
-    /* h1 h2 h3 h4 h5{
+    h3{
       font-family: Poppins,sans-serif;
-    } */
+    }
+    h4{
+      font-family:Poppins,sans-serif ;
+    }
     p{
       font-family: Poppins,sans-serif;
 
@@ -158,6 +161,7 @@
       /* Konten4 */
       .card-1{
       margin-top:3em;
+      padding: 2rem;
 
       }
       .card-1 .card{
@@ -170,6 +174,18 @@
       .card-1 .btn{
         border-radius: 10px;
         
+      }
+
+
+      /* konten-6 */
+
+      .konten-6{
+        padding: 2rem;
+      }
+      .ikon a{
+        color:black;
+        width: 100%;
+        justify-content: center;
       }
 
 
