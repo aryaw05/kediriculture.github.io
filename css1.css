@@ -21,7 +21,7 @@
 
     }
     .header{
-        color: #ffff;
+        color: rgb(255, 255, 255);
         background: url(foto/jogja.jpg);
         background-repeat: no-repeat  ;
         background-position: left;
@@ -32,6 +32,7 @@
       .judul{
         font-family:Poppins;
         padding: 5px;
+     
       }
       /* .judul .navbar-brand img{     
         position: relative;
@@ -56,6 +57,15 @@
       }
       .judul img{
         width: 100px;
+      }
+      .text-1{
+        background: rgba(red, green, blue, alpha);
+        border-radius: 10px;
+        color: white;
+        padding: 20px;
+         box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+         backdrop-filter: blur(10px);
+        
       }
       /* /Navbar */
 
@@ -165,7 +175,7 @@
 
       /* Konten 3 */
       .konten-3{
-          padding: 3rem
+          padding: 3rem;
         }
         .konten-3 img{
           border-radius: 50px;
@@ -173,8 +183,7 @@
 
       /* Konten4 */
       .card-1{
-      margin-top:3em;
-      padding: 2rem;
+      padding: 2rem 2rem 0 2rem;
 
       }
       .card-1 .card{
@@ -201,6 +210,20 @@
         justify-content: center;
       }
 
+
+
+
+
+      /* footer */
+      footer{
+        color: white;
+      }
+      footer a{
+        color: white;
+      }
+      footer a:hover{
+        color: whitesmoke;
+      }
 
       /* @media only screen and (max-width: 600px){
         .konten{
